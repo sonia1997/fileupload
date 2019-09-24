@@ -11,7 +11,7 @@ import { PolymerElement, html } from '@polymer/polymer';
 
 // import '@vaadin/vaadin-upload/vaadin-upload.js';
 
-// import '../rating-bar.js'
+import '../upload-file.js'
 
 class DemoElement extends PolymerElement {
   static get template() {
@@ -27,8 +27,8 @@ font-family: sans-serif;
     </style>
 <center>
 
-       <h3>Sample rating bar web component</h3>
-       <vaadin-upload> </vaadin-upload>
+       <h3>Uploading file</h3>
+       <upload-file> </upload-file>
 
 </center>
 
