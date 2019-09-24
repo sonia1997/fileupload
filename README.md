@@ -1,2 +1,1 @@
-# fileupload
-Uploads files
+My file upload web component
