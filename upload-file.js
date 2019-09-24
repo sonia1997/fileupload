@@ -1,6 +1,6 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 // import '@polymer/iron-icon/iron-icon.js';
-import '@vaadin/vaadin-upload/vaadin-upload.js';
+// import '@vaadin/vaadin-upload/vaadin-upload.js';
 
 // import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js?module'
 
