@@ -1,6 +1,6 @@
 {
-  "name": "soniasoftware",
-  "version": "4.2.4",
+  "name": "sonysoft",
+  "version": "4.2.5",
   "description": "Web Component for uploading files with drag and drop support",
   "main": "vaadin-upload.html",
   "repository": {
@@ -31,16 +31,16 @@
     }
   },
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@vaadin/vaadin-component-dev-dependencies": "^3.0.0"
   },
   "dependencies": {
-    "@polymer/polymer":"^3.0.0",
-    "@vaadin/vaadin-upload":"4.2.2",
-    "@vaadin/vaadin-material-styles":"1.2.3",
-    "@vaadin/vaadin-lumo-styles":"1.5.0",
-    "@vaadin/vaadin-button":"2.2.1"
+    "@polymer/polymer": "^3.0.0",
+    "@vaadin/vaadin-upload": "4.2.2",
+    "@vaadin/vaadin-material-styles": "1.2.3",
+    "@vaadin/vaadin-lumo-styles": "1.5.0",
+    "@vaadin/vaadin-button": "2.2.1"
   }
 }
