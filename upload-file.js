@@ -1,6 +1,6 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 // import '@polymer/iron-icon/iron-icon.js';
-// import '@vaadin/vaadin-upload/vaadin-upload.js';
+import '@vaadin/vaadin-upload/vaadin-upload.js';
 
 // import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js?module'
 
@@ -30,7 +30,7 @@ class UploadFile extends PolymerElement {
 
 <style>
 </style>
-    <vaadin-upload></vaadin-upload>
+    <vaadin-upload target="https://document-extraction-dot-springmldemoproject.appspot.com/api/template/test/finance_invoice" headers='{"accept": "application/json", "username": "test",  "Content-Type": "multipart/form-data"}'></vaadin-upload>
     `;
   }
 

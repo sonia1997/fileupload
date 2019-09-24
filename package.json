@@ -31,21 +31,16 @@
     }
   },
   "scripts": {
-    "test": "wct",
-    "check": "npm-run-all --parallel check:*",
-    "check:bower": "magi check-bower",
-    "check:version": "magi check-version",
-    "lint": "npm-run-all --parallel lint:*",
-    "lint:css": "stylelint *.html src/*.html demo/*.html theme/**/*.html test/*html",
-    "lint:html": "eslint *.html src demo test --ext .html",
-    "lint:js": "eslint *.js test",
-    "lint:polymer": "polymer lint --rules polymer-2 --input ./src/*.html ./theme/**/*.html",
-    "prestart": "polymer analyze vaadin-* > analysis.json",
-    "start": "polymer serve --port 3000 --open",
-    "preversion": "magi update-version"
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@vaadin/vaadin-component-dev-dependencies": "^3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@polymer/polymer":"^3.0.0",
+    "@vaadin/vaadin-upload":"4.2.2",
+    "@vaadin/vaadin-material-styles":"1.2.3",
+    "@vaadin/vaadin-lumo-styles":"1.5.0",
+    "@vaadin/vaadin-button":"2.2.1"
+  }
 }
